@@ -1,0 +1,66 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.icon {
+  width: auto;
+  margin-top: -50px;
+  border-radius: 50%;
+}
+
+.icon img {
+  max-width: 100px;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 600px;
+}
+
+.time {
+  width: 100% !important;
+}
+
+.color-btn{
+  background-color: rgb(108, 200, 108) !important;
+  border: none !important;
+}
+
+.card-size{
+  border: solid 1px rgb(202, 202, 202);
+  border-radius: 8px;
+}
+
+.container{
+  max-width: 80%;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(211, 211, 211);
+}
+
+@media only screen and (max-width: 480px) {
+  .text-size{
+    font-size: small;
+  }
+
+  .container{
+    margin-top: 5px;
+    max-width: 100%;
+    border: none;
+  }
+
+  .date{
+    margin-left: 30px;
+  }
+
+  .card-title{
+    font-size: small !important;
+  }
+  
+}
